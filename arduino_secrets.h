@@ -1,0 +1,5 @@
+// Replace with keys obtained from TheThingsNetwork console
+#define SECRET_APP_EUI "0000000000000000"
+#define SECRET_APP_KEY "584b79355911878b3a4bd4002dec6adc"
+//a8610a3439376508 | 584b79355911878b3a4bd4002dec6adc
+//a8610a3439426508 | 3981d5fbd19b69d4c49cb9e75e730566

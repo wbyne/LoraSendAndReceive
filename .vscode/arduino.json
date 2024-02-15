@@ -1,0 +1,6 @@
+{
+    "board": "arduino:samd:mkrwan1310",
+    "sketch": "LoraSendAndReceive.ino",
+    "port": "ttyACM0",
+    "programmer": "jlink"
+}

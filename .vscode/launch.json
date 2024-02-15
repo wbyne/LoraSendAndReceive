@@ -1,0 +1,20 @@
+ // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "cwd": "${workspaceFolder}",
+      "executable": "/tmp/arduino/sketches/83B65D1E74BF81115D66C59681461AE8/LoraSendAndReceive.ino.elf",
+      "name": "Debug with JLink",
+      "request": "launch",
+      "type": "cortex-debug",
+      "device": "ATSAMD21G18A",
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "raw",
+      "servertype": "jlink",
+      "interface": "swd",
+      "serverpath": "/opt/SEGGER/JLink/JLinkGDBServerCLExe"
+    }
+  ]
+}

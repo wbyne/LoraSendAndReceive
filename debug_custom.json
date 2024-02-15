@@ -1,0 +1,30 @@
+{
+  "servertype": "jlink",
+  "device": "ATSAMD21G18A",
+  "interface": "SWD",
+  "serverpath": "/opt/SEGGER/JLink/JLinkGDBServer"
+}
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "configId": "arduino:samd:mkrwan1310:programmer=jlink",
+      "cwd": "${workspaceRoot}",
+      "request": "launch",
+      "type": "cortex-debug",
+      "executable": "/tmp/arduino/sketches/83B65D1E74BF81115D66C59681461AE8/LoraSendAndReceive.ino.elf",
+      "toolchainPrefix": "arm-none-eabi",
+      "name": "Arduino MKR WAN 1310 (jlink)",
+      "serverpath": "/home/fbyne/.arduino15/packages/arduino/tools/openocd/0.10.0-arduino7/bin/openocd",
+      "servertype": "jlink",
+      "device": "ATSAMD21G18A",
+      "interface": "SWD",
+      "serverpath": "/opt/SEGGER/JLink/JLinkGDBServer",
+      "armToolchainPath": "/home/fbyne/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/",
+      "configFiles": [
+        "/home/fbyne/.arduino15/packages/arduino/hardware/samd/1.8.14/variants/mkrwan1300/openocd_scripts/arduino_zero.cfg"
+      ]
+    }
+  ]
+}
